@@ -787,25 +787,65 @@
             <div class="text-[60px] font-bold text-white/65 mb-16">
                 My Pricing
             </div>
-            <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                <div>
-                    <button type="button" class="shadow-2xl rounded-lg bg-gradient-to-tr from-[#1e2024] to-[#23272b] p-5 outline-0 border-0 w-full">
-                        <span class="text-center text-rose-600 uppercase font-bold"> Static </span>
-                    </button>
+            <div class="flex flex-wrap w-full">
+                <div class="w-full md:w-1/3">
+                    <div class="mb-3 w-full">
+                        <button type="button" class="shadow-2xl rounded-lg bg-gradient-to-tr from-[#1e2024] to-[#23272b] p-5 outline-0 border-0 w-full">
+                            <span class="text-center text-rose-600 uppercase font-bold"> Static </span>
+                        </button>
+                    </div>
+                    <div class="mb-3 w-full">
+                        <button type="button" class="shadow-2xl rounded-lg bg-gradient-to-tr from-[#1e2024] to-[#23272b] p-5 outline-0 border-0 w-full">
+                            <span class="text-center text-rose-600 uppercase font-bold"> Standard </span>
+                        </button>
+                    </div>
+                    <div class="mb-3 w-full">
+                        <button type="button" class="shadow-2xl rounded-lg bg-gradient-to-tr from-[#1e2024] to-[#23272b] p-5 outline-0 border-0 w-full">
+                            <span class="text-center text-rose-600 uppercase font-bold"> Premium </span>
+                        </button>
+                    </div>
                 </div>
-                <div>
-                    <button type="button" class="shadow-2xl rounded-lg bg-gradient-to-tr from-[#1e2024] to-[#23272b] p-5 outline-0 border-0 w-full">
-                        <span class="text-center text-rose-600 uppercase font-bold"> Standard </span>
-                    </button>
-                </div>
-                <div>
-                    <button type="button" class="shadow-2xl rounded-lg bg-gradient-to-tr from-[#1e2024] to-[#23272b] p-5 outline-0 border-0 w-full">
-                        <span class="text-center text-rose-600 uppercase font-bold"> Premium </span>
-                    </button>
-                </div>
-            </div>
-            <div class="mt-10 w-full">
+                <div class="w-full md:w-2/3 ps-5">
+                    <div class="shadow-2xl rounded-lg bg-gradient-to-tr from-[#1e2024] to-[#23272b] outline-0 border-0 w-full p-10">
 
+                        <div class="text-[35px] text-white/75 font-bold">
+                            Make Your Single Page
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div class="mt-3 text-white/65">
+                                Elementor / WPBakery
+                            </div>
+                            <div class="text-[20px] font-bold text-rose-600 custom-shadow p-3">
+                                $30.00
+                            </div>
+                        </div>
+                        <div class="text-white/75 text-[19px] my-5">
+                            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary
+                        </div>
+
+                        <div class="text-white/75 grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div> 1 Page with Elementor </div>
+                            <div> Design Customization </div>
+                            <div> Responsive Design </div>
+                            <div> Content Upload </div>
+                            <div> Design Customization </div>
+                            <div> 2 Plugins/Extensions </div>
+                            <div> Multi page Elementor </div>
+                            <div> Design Figma </div>
+                            <div> MMaintained Design </div>
+                            <div> Content Upload </div>
+                            <div> Design With XD </div>
+                            <div> 8 Plugins/Extensions </div>
+                        </div>
+                        <div class="mt-10">
+                            <button type="button" class="shadow-2xl rounded-lg bg-gradient-to-tr from-[#1e2024] to-[#23272b] p-5 outline-0 border-0 w-full">
+                                <span class="text-center text-rose-600 uppercase font-bold">
+                                    Order Now
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
